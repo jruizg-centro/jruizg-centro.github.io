@@ -80,6 +80,7 @@ background-color:grey;
 }
 
 .nav{
+   border:solid 0.5px green;
   display:grid;
   grid-template-areas: 'headerArea headerArea headerArea' '. . .';
   grid-gap:10px;
