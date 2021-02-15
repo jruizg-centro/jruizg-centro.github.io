@@ -47,29 +47,29 @@ background-color:grey;
   padding:10px;
 }
 
-.codebox>mark{
+.codebox mark{
   background-color:green;
   color:black;
 }
-.codebox>em{
+.codebox em{
   
   color:cyan;
   font-style: normal;
 }
 
-.codebox>strong{
+.codebox strong{
  
   color:magenta;
   font-weight: normal;
 }  
 
-.codebox>i{
+.codebox i{
   
   color:red;
   font-style: normal;
 }
 
-.codebox>b{
+.codebox b{
   
   color:green;
   font-weight: normal;
@@ -91,8 +91,16 @@ position:sticky;
 .header{
   grid-area:headerArea;}
 
-.nav>button{
+button{
   border:solid 0.5px green;
+  background-color:black;
   color:white;
+  cursor:pointer;
+}
+
+button:hover{
+  border:solid 0.5px green;
+  background-color:white;
+  color:black;
   cursor:pointer;
 }
