@@ -37,3 +37,41 @@ p{
   font-size:14;
 }
 
+code{
+  color:white;
+  font-family: 'Inconsolata', monospace;
+}
+
+.codebox{
+background-color:grey;
+  border:solid green;
+  padding:10px;
+}
+
+.codebox>mark{
+  background-color:green;
+  color:black;
+}
+.codebox>em{
+  
+  color:cyan;
+  font-style: normal;
+}
+
+.codebox>strong{
+ 
+  color:magenta;
+  font-weight: normal;
+}  
+
+.codebox>i{
+  
+  color:red;
+  font-style: normal;
+}
+
+.codebox>b{
+  
+  color:green;
+  font-weight: normal;
+}
