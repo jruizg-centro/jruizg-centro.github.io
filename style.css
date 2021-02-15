@@ -8,7 +8,7 @@
 body {
   font-family: 'Inconsolata', monospace;
   width:100%;
-  max-width:1200px;
+  max-width:800px;
   background-color:black;
   color:white;
   margin:auto;
@@ -92,6 +92,7 @@ background-color:grey;
 
 .container{
   display:grid;
+  border: solid 0.5px white;
 }
 
 .nav{
@@ -101,9 +102,13 @@ background-color:grey;
   grid-gap:10px;
 position:sticky;
   top:0;
+  width:98%;
+  margin:1%;
 }
 
 .header{
-  grid-area:headerArea;}
+  grid-area:headerArea;
+text-shadow: 2px 2px #ff0000;
+}
 
 
