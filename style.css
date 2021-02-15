@@ -93,6 +93,8 @@ background-color:grey;
 .container{
   display:grid;
   border: solid 0.5px white;
+  width:98%;
+  margin:1%;
 }
 
 .nav{
@@ -109,6 +111,19 @@ position:sticky;
 .header{
   grid-area:headerArea;
 text-shadow: 2px 2px #ff0000;
+   animation-name: shadow;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
-
+@keyframes shadow {
+  0% {text-shadow: 5px 5px #FF00C3;}
+  12.5% {text-shadow: 5px 3px #C700E8;}
+  25% {text-shadow: 3px 3px #9A0CFF;}
+  37.5% {text-shadow: 3px 5px #02A2E8;}
+  50% {text-shadow: 5px 5px #01DCFF;}
+  62.5% {text-shadow: 5px 3px #02A2E8;}
+  75% {text-shadow: 3px 3px #9A0CFF;}
+  87.5% {text-shadow: 3px 5px #C700E8;}
+  100% {text-shadow: 5px 5px #FF00C3;}
+}
