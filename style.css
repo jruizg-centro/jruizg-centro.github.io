@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Open Sans', sans-serif;
   width:100%;
   max-width:800px;
   background-color:black;
@@ -47,6 +47,7 @@ button{
   background-color:black;
   color:white;
   cursor:pointer;
+  font-family: 'Major Mono Display', sans-serif;
 }
 
 button:hover{
@@ -95,6 +96,7 @@ background-color:grey;
   border: solid 0.5px white;
   width:98%;
   margin:1%;
+  padding:10px;
 }
 
 .nav{
@@ -106,6 +108,11 @@ position:sticky;
   top:0;
   width:98%;
   margin:1%;
+  padding:10px;
+}
+
+.nav button{
+width:100%;
 }
 
 .header{
