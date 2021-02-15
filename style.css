@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Inconsolata', monospace;
   width:100%;
   max-width:1200px;
   background-color:black;
@@ -39,6 +39,20 @@ p{
 code{
   color:white;
   font-family: 'Inconsolata', monospace;
+}
+
+button{
+  border:solid 0.5px green;
+  background-color:black;
+  color:white;
+  cursor:pointer;
+}
+
+button:hover{
+  border:solid 0.5px green;
+  background-color:white;
+  color:black;
+  cursor:pointer;
 }
 
 .codebox{
@@ -91,16 +105,4 @@ position:sticky;
 .header{
   grid-area:headerArea;}
 
-button{
-  border:solid 0.5px green;
-  background-color:black;
-  color:white;
-  cursor:pointer;
-}
 
-button:hover{
-  border:solid 0.5px green;
-  background-color:white;
-  color:black;
-  cursor:pointer;
-}
